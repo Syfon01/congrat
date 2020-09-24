@@ -1,14 +1,7 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
-.right-side{
-  background-image: url('./img/image.png');
-  background-size: auto 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
 
-}
 .body-bg{
   background-color: #000000;
   height: 100vh;
@@ -23,11 +16,13 @@ body{
   text-decoration: none;
   text-transform: uppercase;
 }
-#congratulate{
-  background-image: url('./img/bg-form.svg');
-  background-size: contain;
-  height: 100vh;
+.link:hover{
+  color: #FF736E!important;
+  font-size: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
+
 .text-red{
   color: #FE0000;
 }
@@ -61,8 +56,11 @@ left: 170px
 }
 
 @media (max-width: 575.98px) { 
+  .mobile-top{
+    padding-top: 0rem!important;
+  }
   .mobile-pad{
-    padding: 1rem 1rem!important;
+    padding: 2.5rem 1rem!important;
   }
   .text, .link{
     padding: 0rem!important;
@@ -80,3 +78,4 @@ left: 170px
     font-weight: 200!important;
   }
 }
+
