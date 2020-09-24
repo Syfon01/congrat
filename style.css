@@ -23,6 +23,7 @@ body{
 #congratulate{
   background-image: url('./img/bg-form.svg');
   background-size: contain;
+  height: 100vh;
 }
 .text-red{
   color: #ff4000;
@@ -41,7 +42,8 @@ left: 150px
 @media (max-width: 767.98px) { 
   .col-body{
     top: 220px;
-    left: 110px
+    left: 110px;
+    padding:0rem!important;
     }
 
       
