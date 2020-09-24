@@ -74,6 +74,9 @@ left: 170px
     background: #000000;
   }
  }
-@media (max-width: 1720.98px) { 
-  
+@media (max-width: 1400.98px) { 
+  .text{
+    font-size: 1.6rem;
+    font-weight: 200!important;
+  }
 }
