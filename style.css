@@ -1,0 +1,63 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.right-side{
+  background-image: url('./img/image.png');
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+}
+.body-bg{
+  background-color: #000000;
+  height: 100vh;
+}
+.text{
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.link{
+  color: #FF736E!important;
+}
+#congratulate{
+  background-image: url('./img/bg-form.svg');
+  background-size: contain;
+}
+.text-red{
+  color: #ff4000;
+}
+.font-100{
+  font-size: 64px!important;
+}
+.col-body{
+top: 150px;
+left: 150px
+}
+.btn-submit{
+  background: #D70900;
+}
+
+@media (max-width: 767.98px) { 
+  .col-body{
+    top: 220px;
+    left: 110px
+    }
+
+      
+}
+
+@media (max-width: 575.98px) { 
+  .mobile-pad{
+    padding: 1rem 1rem!important;
+  }
+  .text, .link{
+    padding: 0rem!important;
+  }
+  .right-side{
+    order: first!important;
+  }
+  .mobile-bg{
+    background: #000000;
+  }
+ }
